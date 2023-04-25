@@ -1,0 +1,177 @@
+body::-webkit-scrollbar {
+    width: 8px;
+    /* Width of the scroll bar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scroll bar thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+    /* Color of the scroll bar thumb on hover */
+}
+
+
+
+/* .navbar-nav {
+    justify-content: flex-end;
+} */
+
+.navbar {
+    padding: 3em 10em;
+}
+
+img {
+    height: 3em;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.fa {
+    font-size: 1.5em;
+}
+
+.background-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/1642289.jpg');
+    /* Replace with your actual image URL */
+    background-size: cover;
+    /* Adjust the blur effect as desired */
+    /* Adjust the opacity as desired */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    /* Add any desired styles for your content */
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+main,
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0em 10em 5em 10em;
+    color: #eee;
+}
+
+
+.main-center-container {
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-name {
+    font-size: 4em;
+    margin: 0;
+}
+
+.main-description {
+    font-size: 2em;
+    margin: 0 0 3em 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: silver;
+    transition: color .5s ease;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.sub-button {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 2em 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1C2331;
+    height: 5em;
+    width: 13em;
+    line-height: 5em;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 1em;
+    user-select: none;
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+
+.sub-button:hover {
+    background-color: #0E1116;
+}
+
+h2 {
+    margin: 2em 0 0.5em 0;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+@media (max-width: 900px) {
+    .main-center-container {
+        margin: 0;
+    }
+
+    .main-name {
+        font-size: 2.5em;
+    }
+
+    .main-description {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    main {
+        margin: 0em 3em;
+    }
+
+    .navbar {
+        padding: 3em 3em;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+}
